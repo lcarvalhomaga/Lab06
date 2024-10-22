@@ -21,6 +21,6 @@ if __name__ == "__main__":
             passwd = input("Please enter your password to encode: ")
             passwd = encoder(passwd)
         elif opt == 2:
-            decoder(passwd)
+            print(f"The encoded password is {passwd}, and the original password is {decoder(passwd)}.")
         elif opt == 3:
             break
