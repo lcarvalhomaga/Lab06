@@ -18,7 +18,7 @@ if __name__ == "__main__":
         opt = int(input("Please enter an option: "))
         passwd = "1"
         if opt == 1:
-            passwd = input("lease enter your password to encode: ")
+            passwd = input("Please enter your password to encode: ")
             passwd = encoder(passwd)
         elif opt == 2:
             decoder(passwd)
